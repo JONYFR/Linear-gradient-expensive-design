@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all-box {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.full-box {
+    /* border-bottom: 4px solid#111; */
+    padding-top: 40px;
+}
+
+.blue-gurd {
+    color: #000c40 !important;
+}
+
+
+/* .nd-box {
+    margin-top: 40px;
+} */
+
+.angcore {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-top: 85px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-class {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    ;
+}
+
+.box-1 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-2 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-3 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(45deg, blue, red);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-4 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(0deg, blue, green 40%, red);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-5 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(.25turn, red, 10%, blue);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-6 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(45deg, red 0 50%, blue 50% 100%);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-7 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(red, orange, yellow, green, blue);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-8 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(red 10%, 30%, blue 90%);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-9 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+    border: none;
+}
+
+.box-10 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-11 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-12 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #f3904f, #3b4371);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-13 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #f0f2f0, #000c40);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-14 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-15 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #dce35b, #45b649);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-16 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #c0c0aa, #1cefff);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-17 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-18 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #dbe6f6, #c5796d);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-19 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #de6161, #2657eb);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-20 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #ff00cc, #333399);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-21 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #fffc00, #ffffff);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-22 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-23 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #00c3ff, #ffff1c);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-24 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #f4c4f3, #fc67fa);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-25 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #41295a, #2f0743);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-26 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-27 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-28 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-29 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #808080, #3fada8);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-30 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-31 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-32 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-33 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-34 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #4ecdc4, #556270);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-35 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #3a6186, #89253e);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-36 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-37 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #f85032, #e73827);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-38 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #f79d00, #64f38c);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-39 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #cb2d3e, #ef473a);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-40 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-41 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #42275a, #734b6d);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-42 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #42275a, #734b6d);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-43 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #141e30, #243b55);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-44 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #f00000, #dc281e);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
+
+.box-45 {
+    height: 200px;
+    width: 400px;
+    background: linear-gradient(to right, #2c3e50, #fd746c);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px 1px #111;
+}
